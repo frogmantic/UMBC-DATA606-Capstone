@@ -35,7 +35,6 @@ Currently applying data science and AI/ML technologies — including RAG pipelin
 ### 🎓 University of Maryland, Baltimore County (UMBC)
 **Master of Professional Studies (MPS), Data Science** — *Expected December 2026*
 
-> Capstone coursework in machine learning, statistical analysis, and applied data science. Current capstone project repository: [UMBC-DATA606-Capstone](https://github.com/frogmantic/UMBC-DATA606-Capstone)
 
 ### 🎓 University of Maryland, Baltimore County (UMBC)
 **Bachelor of Science (BS), Information Systems Management** — *1999*
@@ -132,15 +131,6 @@ Currently applying data science and AI/ML technologies — including RAG pipelin
 *1998 – 1999*
 
 - Developed **Visual Basic applications** and decision-support tools to assist highway maintenance planning and data-driven infrastructure analysis.
-
----
-
-## Areas of Interest
-
-- **Applied AI/ML** — Retrieval-augmented generation, vector search, and large language model integration
-- **Cloud Architecture** — Serverless design patterns and infrastructure-as-code
-- **Healthcare Data Systems** — Interoperability, provider data, and claims processing
-- **Technical Mentorship** — Coaching developers on architecture, code quality, and modern engineering practices
 
 ---
 
