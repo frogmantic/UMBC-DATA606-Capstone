@@ -4,7 +4,7 @@
 
 ### Senior Principal Engineer | Software Developer SME | Data Science Graduate Student
 
-📧 [Michael.W.Tyler@gdit.com](mailto:mtyler2@umbc.edu) | 📱 443-866-1865 | 💻 [github.com/frogmantic](https://github.com/frogmantic)
+📧 [mtyler2@umbc.edu](mailto:mtyler2@umbc.edu) | 📱 443-866-1865 | 💻 [github.com/frogmantic](https://github.com/frogmantic)
 
 ---
 
