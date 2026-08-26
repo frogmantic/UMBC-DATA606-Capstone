@@ -1,6 +1,6 @@
 # Michael Tyler
 
-![Michael Tyler headshot](headshot.jpg)
+![Michael Tyler headshot](headshot1.jpg)
 
 ### Senior Principal Engineer | Software Developer SME | Data Science Graduate Student
 
