@@ -10,7 +10,7 @@
 
 ## Professional Summary
 
-Senior Principal Engineer and Software Developer SME with **25 years of experience** architecting and delivering enterprise software solutions across healthcare and financial systems. Deep expertise in Java, Spring Boot, Angular, Python, and RESTful microservices, with a strong record of modernizing legacy systems, migrating workloads to AWS, and building high-availability, cloud-native architectures.
+Senior Principal Engineer and Software Developer SME with **28 years of experience** architecting and delivering enterprise software solutions across healthcare and financial systems. Deep expertise in Java, Spring Boot, Angular, Python, and RESTful microservices, with a strong record of modernizing legacy systems, migrating workloads to AWS, and building high-availability, cloud-native architectures.
 
 Currently applying data science and AI/ML technologies — including RAG pipelines, LLMs, FAISS, and OpenSearch vector search — to intelligent data access and analytical challenges. A proven technical leader and mentor who guides cross-functional teams from design through delivery.
 
