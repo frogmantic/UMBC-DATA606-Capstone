@@ -1,0 +1,87 @@
+feature,label,group,pct_filled,spearman_r,skew,vif,in_main_model,flag
+chr_homicides,Homicides,Cause-specific deaths,42.6,-0.613,2.51,,False,low coverage
+chr_motor_vehicle_crash_deaths,Motor Vehicle Crash Deaths,Cause-specific deaths,86.8,-0.564,1.32,,False,
+chr_firearm_fatalities,Firearm Fatalities,Cause-specific deaths,73.2,-0.545,1.3,,False,low coverage
+chr_injury_deaths,Injury Deaths,Cause-specific deaths,97.8,-0.448,1.18,,False,
+chr_drug_overdose_deaths,Drug Overdose Deaths,Cause-specific deaths,57.8,-0.27,1.85,,False,low coverage
+chr_suicides,Suicides,Cause-specific deaths,78.4,-0.221,4.05,,False,low coverage
+chr_poor_or_fair_health,Poor or Fair Health,Health status,100.0,-0.756,0.75,,False,
+chr_frequent_physical_distress,Frequent Physical Distress,Health status,100.0,-0.744,0.59,,False,
+chr_poor_physical_health_days,Poor Physical Health Days,Health status,100.0,-0.723,0.48,,False,
+chr_diabetes_prevalence,Diabetes Prevalence,Health status,100.0,-0.718,0.98,,False,
+chr_frequent_mental_distress,Frequent Mental Distress,Health status,100.0,-0.709,0.06,,False,
+chr_poor_mental_health_days,Poor Mental Health Days,Health status,100.0,-0.596,-0.07,,False,
+chr_physical_inactivity,Physical Inactivity,Main (upstream),100.0,-0.753,0.36,11.7,True,high VIF - consider dropping
+chr_adult_smoking,Adult Smoking,Main (upstream),100.0,-0.745,0.22,12.7,True,high VIF - consider dropping
+chr_adult_obesity,Adult Obesity,Main (upstream),100.0,-0.674,-0.47,4.5,True,
+chr_insufficient_sleep,Insufficient Sleep,Main (upstream),100.0,-0.673,0.18,4.1,True,
+acs_median_hh_income,Median household income (2019 $),Main (upstream),100.0,0.655,1.31,8.5,True,
+acs_pct_poverty,% of people below poverty,Main (upstream),100.0,-0.645,1.13,8.0,True,
+acs_pct_bachelors_or_higher,% age 25+ with bachelor's degree or higher,Main (upstream),100.0,0.637,1.44,7.1,True,
+scap_economic_connectedness,Economic connectedness: share of high-income ,Main (upstream),97.4,0.624,0.08,4.5,True,
+acs_pct_hs_or_higher,% age 25+ with HS diploma/GED or higher,Main (upstream),100.0,0.615,-1.07,6.7,True,
+cms_er_visits_per_1000,"ER visits per 1,000 FFS beneficiaries",Main (upstream),99.9,-0.591,0.03,2.6,True,
+chr_food_environment_index,Food Environment Index,Main (upstream),99.0,0.568,-1.1,2.6,True,
+cms_pct_dual_eligible,% of FFS beneficiaries also eligible for Medi,Main (upstream),99.9,-0.535,1.19,4.0,True,
+chr_excessive_drinking,Excessive Drinking,Main (upstream),100.0,0.533,0.21,2.4,True,
+chr_preventable_hospital_stays,Preventable Hospital Stays,Main (upstream),98.8,-0.528,0.9,1.9,True,
+chr_broadband_access,Broadband Access,Main (upstream),100.0,0.516,-1.02,3.3,True,
+cms_std_spending_per_capita,Standardized Medicare spending per FFS benefi,Main (upstream),99.9,-0.502,0.66,2.4,True,
+chr_children_in_single_parent_households,Children in Single-Parent Households,Main (upstream),100.0,-0.485,1.21,3.6,True,
+acs_unemployment_rate,% of civilian labor force unemployed,Main (upstream),100.0,-0.464,1.65,2.5,True,skewed - consider log
+acs_home_value_to_income,Home value / income (affordability),Main (upstream),100.0,0.364,2.47,3.6,True,skewed - consider log
+cms_readmission_pct,30-day hospital readmission %,Main (upstream),97.9,-0.358,-0.1,1.8,True,
+chr_air_pollution_particulate_matter,Air Pollution - Particulate Matter,Main (upstream),99.4,-0.358,-0.4,2.2,True,
+scap_clustering,Cohesiveness: share of a person's friends who,Main (upstream),99.5,-0.351,1.03,3.6,True,
+chr_uninsured_adults,Uninsured Adults,Main (upstream),100.0,-0.335,0.94,3.5,True,
+chr_mammography_screening,Mammography Screening,Main (upstream),99.8,0.335,-0.14,2.2,True,
+chr_access_to_exercise_opportunities,Access to Exercise Opportunities,Main (upstream),98.3,0.333,-0.54,2.2,True,
+acs_pct_nh_black,% non-Hispanic Black,Main (upstream),100.0,-0.331,2.3,5.6,True,skewed - consider log
+irs_churn_rate_per_1000,"Total moves per 1,000 residents (in plus out)",Main (upstream),99.0,0.327,1.56,2.5,True,skewed - consider log
+chr_primary_care_physicians,Primary Care Physicians,Main (upstream),95.4,0.323,2.61,1.9,True,skewed - consider log
+acs_pct_nh_asian,% non-Hispanic Asian,Main (upstream),100.0,0.314,6.91,2.2,True,skewed - consider log
+chr_dentists,Dentists,Main (upstream),97.3,0.304,5.32,1.7,True,skewed - consider log
+chr_flu_vaccinations,Flu Vaccinations,Main (upstream),99.8,0.283,-0.64,2.0,True,
+acs_gini,Gini index of income inequality,Main (upstream),100.0,-0.272,0.54,2.3,True,
+scap_volunteering_rate,Share of members of volunteering/activism gro,Main (upstream),99.5,0.243,1.32,1.5,True,
+chr_mental_health_providers,Mental Health Providers,Main (upstream),93.6,0.216,4.19,1.7,True,skewed - consider log
+acs_pct_hispanic,% Hispanic or Latino,Main (upstream),100.0,0.211,3.09,5.9,True,skewed - consider log
+chr_pct_female,% Female,Main (upstream),100.0,-0.206,-3.09,1.5,True,skewed - consider log
+chr_pct_not_proficient_in_english,% Not Proficient in English,Main (upstream),100.0,0.185,4.44,3.8,True,skewed - consider log
+chr_homeownership,Homeownership,Main (upstream),100.0,0.152,-1.02,3.8,True,
+chr_pct_65_and_older,% 65 and Older,Main (upstream),100.0,0.142,0.73,3.3,True,
+chr_pct_rural,% Rural,Main (upstream),99.9,-0.141,-0.14,5.7,True,
+chr_long_commute_driving_alone,Long Commute - Driving Alone,Main (upstream),100.0,-0.131,0.26,2.9,True,
+irs_agi_in_out_ratio,Income of arrivers vs. leavers (>1 = in-mover,Main (upstream),99.0,0.117,2.05,1.4,True,skewed - consider log
+irs_net_rate_per_1000,"Net migration per 1,000 residents (in minus o",Main (upstream),99.0,0.113,-1.83,1.6,True,skewed - consider log
+acs_log_pop,Log population,Main (upstream),100.0,0.106,0.46,7.2,True,
+acs_pct_nh_aian,% non-Hispanic American Indian/Alaska Native,Main (upstream),100.0,0.095,8.15,2.9,True,skewed - consider log
+rucc,Rural-urban code (higher = more rural),Main (upstream),100.0,-0.091,-0.07,3.8,True,
+chr_gender_pay_gap,Gender Pay Gap,Main (upstream),99.9,0.072,0.58,1.3,True,
+cms_ma_participation_rate,Medicare Advantage participation rate,Main (upstream),98.6,-0.064,0.14,1.8,True,
+chr_severe_housing_problems,Severe Housing Problems,Main (upstream),100.0,-0.053,2.6,4.1,True,skewed - consider log
+chr_drinking_water_violations,Drinking Water Violations,Main (upstream),99.1,0.051,0.68,1.1,True,
+chr_social_associations,Social Associations,Main (upstream),100.0,0.015,1.1,1.7,True,
+chr_severe_housing_cost_burden,Severe Housing Cost Burden,Main (upstream),100.0,-0.005,0.79,3.5,True,
+irs_out_rate_per_1000,"Households moving out per 1,000 residents",Migration,99.6,0.326,2.49,,False,skewed - consider log
+irs_in_rate_per_1000,"Households moving in per 1,000 residents",Migration,99.1,0.303,1.2,,False,
+irs_pct_stayed,% of resident filers who stayed in the county,Migration,99.0,-0.076,-3.07,,False,skewed - consider log
+scap_exposure_to_high_income,Exposure of low-income residents to high-inco,Social capital,97.2,0.629,-0.09,,False,
+scap_child_economic_connectedness,Economic connectedness among children/young p,Social capital,88.2,0.604,0.24,,False,
+scap_ec_group_membership,"Economic connectedness within groups (clubs, ",Social capital,97.2,0.596,0.06,,False,
+scap_support_ratio,Share of friendships supported by a mutual fr,Social capital,99.5,-0.429,-6.33,,False,skewed - consider log
+scap_civic_organizations,"Civic organizations per 1,000 users",Social capital,99.5,0.357,4.04,,False,skewed - consider log
+scap_friending_bias,Friending bias: tendency to befriend similar-,Social capital,97.2,-0.054,0.26,,False,
+chr_teen_births,Teen Births,Youth/early-life,95.2,-0.724,0.72,,False,
+chr_children_in_poverty,Children in Poverty,Youth/early-life,100.0,-0.66,0.83,,False,
+chr_children_eligible_for_free_or_reduced_price_l,Children Eligible for Free or Reduced Price L,Youth/early-life,82.2,-0.608,0.54,,False,
+chr_low_birthweight,Low Birthweight,Youth/early-life,97.8,-0.531,1.11,,False,
+chr_school_funding_adequacy,School Funding Adequacy,Youth/early-life,98.9,0.481,0.23,,False,
+chr_sexually_transmitted_infections,Sexually Transmitted Infections,Youth/early-life,96.6,-0.336,2.41,,False,skewed - consider log
+chr_reading_scores,Reading Scores,Youth/early-life,89.7,0.321,-0.43,,False,
+chr_math_scores,Math Scores,Youth/early-life,87.3,0.319,-0.29,,False,
+chr_hiv_prevalence,HIV Prevalence,Youth/early-life,85.7,-0.231,3.56,,False,skewed - consider log
+chr_pct_below_18_years_of_age,% Below 18 Years of Age,Youth/early-life,100.0,-0.174,0.41,,False,
+chr_child_care_cost_burden,Child Care Cost Burden,Youth/early-life,100.0,-0.135,1.04,,False,
+chr_school_segregation,School Segregation,Youth/early-life,93.4,0.086,2.19,,False,skewed - consider log
+chr_child_care_centers,Child Care Centers,Youth/early-life,96.0,0.038,5.45,,False,skewed - consider log

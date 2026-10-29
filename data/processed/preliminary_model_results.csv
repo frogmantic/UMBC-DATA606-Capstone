@@ -1,0 +1,27 @@
+features,model,cv,n_features,RMSE,MAE,R2
+Main,Baseline (mean),Random 5-fold,55,1.984,1.547,-0.001
+Main,Baseline (mean),Spatial (by division),55,2.069,1.626,-0.088
+Main,Linear regression,Random 5-fold,55,468564411596.761,12024656308.222,-5.581387900870938e+22
+Main,Linear regression,Spatial (by division),55,1821729721023.018,138558083784.463,-8.436678395422518e+23
+Main,Gradient boosting,Random 5-fold,55,0.91,0.666,0.79
+Main,Gradient boosting,Spatial (by division),55,1.051,0.775,0.719
+Main without migration,Linear regression,Random 5-fold,52,304402143307.461,8163915402.78,-2.3555862935464206e+22
+Main without migration,Linear regression,Spatial (by division),52,2441796682310.366,182728551967.486,-1.5157326483953345e+24
+Main without migration,Gradient boosting,Random 5-fold,52,0.912,0.672,0.789
+Main without migration,Gradient boosting,Spatial (by division),52,1.055,0.777,0.717
+Main + youth/early-life,Linear regression,Random 5-fold,68,873834521385.412,24467605041.276,-1.9411629886915113e+23
+Main + youth/early-life,Linear regression,Spatial (by division),68,1044369775385.906,75782500288.112,-2.772759461283795e+23
+Main + youth/early-life,Gradient boosting,Random 5-fold,68,0.895,0.667,0.796
+Main + youth/early-life,Gradient boosting,Spatial (by division),68,1.067,0.786,0.71
+Main + health status,Linear regression,Random 5-fold,61,739094342946.094,22435380907.137,-1.388683780292003e+23
+Main + health status,Linear regression,Spatial (by division),61,6968196171716.179,509195614846.313,-1.2343671172394272e+25
+Main + health status,Gradient boosting,Random 5-fold,61,0.907,0.664,0.791
+Main + health status,Gradient boosting,Spatial (by division),61,1.046,0.771,0.722
+Main + injury deaths,Linear regression,Random 5-fold,57,356090165165.616,8845015440.535,-3.22346949607939e+22
+Main + injury deaths,Linear regression,Spatial (by division),57,56576131988.144,3789495354.366,-8.137108576534406e+20
+Main + injury deaths,Gradient boosting,Random 5-fold,57,0.869,0.637,0.808
+Main + injury deaths,Gradient boosting,Spatial (by division),57,1.028,0.755,0.732
+Main + all cause-specific deaths,Linear regression,Random 5-fold,61,73137082618.18,2146948387.799,-1.359812008120801e+21
+Main + all cause-specific deaths,Linear regression,Spatial (by division),61,3288556222433.716,253827265873.61,-2.749249462947378e+24
+Main + all cause-specific deaths,Gradient boosting,Random 5-fold,61,0.868,0.636,0.809
+Main + all cause-specific deaths,Gradient boosting,Spatial (by division),61,1.03,0.753,0.73

@@ -1,0 +1,23 @@
+features,model,cv,n_features,RMSE,MAE,R2
+Main,Baseline (mean),Random 5-fold,51,1.984,1.547,-0.001
+Main,Baseline (mean),Spatial (by division),51,2.069,1.626,-0.088
+Main,Linear regression (OLS),Random 5-fold,51,0.951,0.692,0.77
+Main,Linear regression (OLS),Spatial (by division),51,1.058,0.783,0.715
+Main,Elastic net,Random 5-fold,51,0.952,0.696,0.77
+Main,Elastic net,Spatial (by division),51,1.062,0.784,0.713
+Main,Random forest,Random 5-fold,51,0.992,0.719,0.75
+Main,Random forest,Spatial (by division),51,1.139,0.826,0.67
+Main,Gradient boosting,Random 5-fold,51,0.92,0.675,0.785
+Main,Gradient boosting,Spatial (by division),51,1.073,0.795,0.708
+Main + youth,Elastic net,Random 5-fold,58,0.924,0.671,0.783
+Main + youth,Elastic net,Spatial (by division),58,1.045,0.755,0.722
+Main + youth,Gradient boosting,Random 5-fold,58,0.9,0.665,0.794
+Main + youth,Gradient boosting,Spatial (by division),58,1.051,0.776,0.719
+Main + health status,Elastic net,Random 5-fold,57,0.946,0.688,0.772
+Main + health status,Elastic net,Spatial (by division),57,1.041,0.762,0.725
+Main + health status,Gradient boosting,Random 5-fold,57,0.901,0.665,0.794
+Main + health status,Gradient boosting,Spatial (by division),57,1.093,0.811,0.697
+Main + cause-specific deaths,Elastic net,Random 5-fold,57,0.909,0.666,0.79
+Main + cause-specific deaths,Elastic net,Spatial (by division),57,1.04,0.769,0.725
+Main + cause-specific deaths,Gradient boosting,Random 5-fold,57,0.874,0.648,0.806
+Main + cause-specific deaths,Gradient boosting,Spatial (by division),57,1.042,0.77,0.724

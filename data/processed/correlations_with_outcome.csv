@@ -1,0 +1,81 @@
+,spearman_r,group,label
+chr_poor_or_fair_health,-0.756,Health status,Poor or Fair Health
+chr_physical_inactivity,-0.753,Main,Physical Inactivity
+chr_adult_smoking,-0.745,Main,Adult Smoking
+chr_frequent_physical_distress,-0.744,Health status,Frequent Physical Distress
+chr_teen_births,-0.724,Youth/early-life,Teen Births
+chr_poor_physical_health_days,-0.723,Health status,Poor Physical Health Days
+chr_diabetes_prevalence,-0.718,Health status,Diabetes Prevalence
+chr_frequent_mental_distress,-0.709,Health status,Frequent Mental Distress
+chr_food_insecurity,-0.693,Main,Food Insecurity
+chr_adult_obesity,-0.674,Main,Adult Obesity
+chr_insufficient_sleep,-0.673,Main,Insufficient Sleep
+chr_children_in_poverty,-0.66,Youth/early-life,Children in Poverty
+acs_median_hh_income,0.655,Main,Median household income (2019 $)
+acs_pct_poverty,-0.645,Main,% of people below poverty
+acs_pct_bachelors_or_higher,0.637,Main,% age 25+ with bachelor's degree or higher
+scap_economic_connectedness,0.624,Social capital,Economic connectedness: share of high-income 
+acs_pct_hs_or_higher,0.615,Main,% age 25+ with HS diploma/GED or higher
+chr_homicides,-0.613,Cause-specific deaths,Homicides
+acs_median_home_value,0.61,Main,Median home value (2019 $)
+chr_children_eligible_for_free_or_reduced_price_l,-0.608,Youth/early-life,Children Eligible for Free or Reduced Price L
+chr_poor_mental_health_days,-0.596,Health status,Poor Mental Health Days
+cms_er_visits_per_1000,-0.591,Main,"ER visits per 1,000 FFS beneficiaries"
+chr_food_environment_index,0.568,Main,Food Environment Index
+chr_motor_vehicle_crash_deaths,-0.564,Cause-specific deaths,Motor Vehicle Crash Deaths
+chr_firearm_fatalities,-0.545,Cause-specific deaths,Firearm Fatalities
+cms_pct_dual_eligible,-0.535,Main,% of FFS beneficiaries also eligible for Medi
+chr_excessive_drinking,0.533,Main,Excessive Drinking
+chr_low_birthweight,-0.531,Youth/early-life,Low Birthweight
+chr_preventable_hospital_stays,-0.528,Main,Preventable Hospital Stays
+chr_broadband_access,0.516,Main,Broadband Access
+cms_std_spending_per_capita,-0.502,Main,Standardized Medicare spending per FFS benefi
+chr_children_in_single_parent_households,-0.485,Main,Children in Single-Parent Households
+chr_school_funding_adequacy,0.481,Youth/early-life,School Funding Adequacy
+acs_unemployment_rate,-0.464,Main,% of civilian labor force unemployed
+chr_injury_deaths,-0.448,Cause-specific deaths,Injury Deaths
+cms_readmission_pct,-0.358,Main,30-day hospital readmission %
+chr_air_pollution_particulate_matter,-0.358,Main,Air Pollution - Particulate Matter
+scap_clustering,-0.351,Social capital,Cohesiveness: share of a person's friends who
+acs_pct_foreign_born,0.343,Main,% foreign born
+chr_sexually_transmitted_infections,-0.336,Youth/early-life,Sexually Transmitted Infections
+chr_mammography_screening,0.335,Main,Mammography Screening
+chr_uninsured_adults,-0.335,Main,Uninsured Adults
+chr_access_to_exercise_opportunities,0.333,Main,Access to Exercise Opportunities
+acs_pct_nh_black,-0.331,Main,% non-Hispanic Black
+irs_churn_rate_per_1000,0.327,Migration,"Total moves per 1,000 residents (in plus out)"
+chr_primary_care_physicians,0.323,Main,Primary Care Physicians
+chr_reading_scores,0.321,Youth/early-life,Reading Scores
+chr_math_scores,0.319,Youth/early-life,Math Scores
+acs_pct_nh_asian,0.314,Main,% non-Hispanic Asian
+chr_dentists,0.304,Main,Dentists
+chr_flu_vaccinations,0.283,Main,Flu Vaccinations
+acs_gini,-0.272,Main,Gini index of income inequality
+chr_drug_overdose_deaths,-0.27,Cause-specific deaths,Drug Overdose Deaths
+scap_volunteering_rate,0.243,Social capital,Share of members of volunteering/activism gro
+chr_hiv_prevalence,-0.231,Youth/early-life,HIV Prevalence
+chr_suicides,-0.221,Cause-specific deaths,Suicides
+chr_mental_health_providers,0.216,Main,Mental Health Providers
+acs_pct_hispanic,0.211,Main,% Hispanic or Latino
+chr_pct_female,-0.206,Main,% Female
+chr_traffic_volume,0.195,Main,Traffic Volume
+chr_pct_not_proficient_in_english,0.185,Main,% Not Proficient in English
+chr_pct_below_18_years_of_age,-0.174,Youth/early-life,% Below 18 Years of Age
+chr_homeownership,0.152,Main,Homeownership
+chr_pct_65_and_older,0.142,Main,% 65 and Older
+chr_pct_rural,-0.141,Main,% Rural
+chr_child_care_cost_burden,-0.135,Youth/early-life,Child Care Cost Burden
+chr_long_commute_driving_alone,-0.131,Main,Long Commute - Driving Alone
+irs_agi_in_out_ratio,0.117,Migration,Income of arrivers vs. leavers (>1 = in-mover
+irs_net_rate_per_1000,0.113,Migration,"Net migration per 1,000 residents (in minus o"
+acs_log_pop,0.106,Main,Log population
+acs_pct_nh_aian,0.095,Main,% non-Hispanic American Indian/Alaska Native
+rucc,-0.091,Main,Rural-urban code (higher = more rural)
+chr_school_segregation,0.086,Youth/early-life,School Segregation
+chr_gender_pay_gap,0.072,Main,Gender Pay Gap
+cms_ma_participation_rate,-0.064,Main,Medicare Advantage participation rate
+chr_severe_housing_problems,-0.053,Main,Severe Housing Problems
+chr_drinking_water_violations,0.051,Main,Drinking Water Violations
+chr_child_care_centers,0.038,Youth/early-life,Child Care Centers
+chr_social_associations,0.015,Main,Social Associations
+chr_severe_housing_cost_burden,-0.005,Main,Severe Housing Cost Burden
