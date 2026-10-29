@@ -1,0 +1,133 @@
+column,source,description
+fips,Key,5-digit county FIPS code (largest county if a combined unit)
+state_fips,Derived,2-digit state FIPS code
+state,Derived,State abbreviation
+census_division,Derived,Census division (use for spatial CV)
+member_fips,Derived,Counties in this row; several (';'-separated) when IHME combined them into one unit
+le50_both,IHME,"OUTCOME: life expectancy at age 50, both sexes (IHME, 2019)"
+le50_male,IHME,"Life expectancy at age 50, males (IHME, 2019)"
+le50_female,IHME,"Life expectancy at age 50, females (IHME, 2019)"
+le0_both,IHME,"Life expectancy at birth, both sexes (IHME, 2019), for comparison"
+chr_poor_or_fair_health,"CHR (analytic_data2023_0.csv, v002_rawvalue)",Poor or Fair Health raw value
+chr_poor_physical_health_days,"CHR (analytic_data2023_0.csv, v036_rawvalue)",Poor Physical Health Days raw value
+chr_poor_mental_health_days,"CHR (analytic_data2023_0.csv, v042_rawvalue)",Poor Mental Health Days raw value
+chr_low_birthweight,"CHR (analytic_data2023_0.csv, v037_rawvalue)",Low Birthweight raw value
+chr_adult_smoking,"CHR (analytic_data2023_0.csv, v009_rawvalue)",Adult Smoking raw value
+chr_adult_obesity,"CHR (analytic_data2023_0.csv, v011_rawvalue)",Adult Obesity raw value
+chr_food_environment_index,"CHR (analytic_data2023_0.csv, v133_rawvalue)",Food Environment Index raw value
+chr_physical_inactivity,"CHR (analytic_data2023_0.csv, v070_rawvalue)",Physical Inactivity raw value
+chr_access_to_exercise_opportunities,"CHR (analytic_data2023_0.csv, v132_rawvalue)",Access to Exercise Opportunities raw value
+chr_excessive_drinking,"CHR (analytic_data2023_0.csv, v049_rawvalue)",Excessive Drinking raw value
+chr_sexually_transmitted_infections,"CHR (analytic_data2023_0.csv, v045_rawvalue)",Sexually Transmitted Infections raw value
+chr_teen_births,"CHR (analytic_data2023_0.csv, v014_rawvalue)",Teen Births raw value
+chr_uninsured,"CHR (analytic_data2023_0.csv, v085_rawvalue)",Uninsured raw value
+chr_primary_care_physicians,"CHR (analytic_data2023_0.csv, v004_rawvalue)",Primary Care Physicians raw value
+chr_dentists,"CHR (analytic_data2023_0.csv, v088_rawvalue)",Dentists raw value
+chr_mental_health_providers,"CHR (analytic_data2023_0.csv, v062_rawvalue)",Mental Health Providers raw value
+chr_preventable_hospital_stays,"CHR (analytic_data2023_0.csv, v005_rawvalue)",Preventable Hospital Stays raw value
+chr_mammography_screening,"CHR (analytic_data2023_0.csv, v050_rawvalue)",Mammography Screening raw value
+chr_flu_vaccinations,"CHR (analytic_data2023_0.csv, v155_rawvalue)",Flu Vaccinations raw value
+chr_high_school_completion,"CHR (analytic_data2023_0.csv, v168_rawvalue)",High School Completion raw value
+chr_some_college,"CHR (analytic_data2023_0.csv, v069_rawvalue)",Some College raw value
+chr_unemployment,"CHR (analytic_data2023_0.csv, v023_rawvalue)",Unemployment raw value
+chr_children_in_poverty,"CHR (analytic_data2023_0.csv, v024_rawvalue)",Children in Poverty raw value
+chr_income_inequality,"CHR (analytic_data2023_0.csv, v044_rawvalue)",Income Inequality raw value
+chr_children_in_single_parent_households,"CHR (analytic_data2023_0.csv, v082_rawvalue)",Children in Single-Parent Households raw value
+chr_social_associations,"CHR (analytic_data2023_0.csv, v140_rawvalue)",Social Associations raw value
+chr_injury_deaths,"CHR (analytic_data2023_0.csv, v135_rawvalue)",Injury Deaths raw value [MORTALITY-BASED: overlaps outcome]
+chr_air_pollution_particulate_matter,"CHR (analytic_data2023_0.csv, v125_rawvalue)",Air Pollution - Particulate Matter raw value
+chr_drinking_water_violations,"CHR (analytic_data2023_0.csv, v124_rawvalue)",Drinking Water Violations raw value
+chr_severe_housing_problems,"CHR (analytic_data2023_0.csv, v136_rawvalue)",Severe Housing Problems raw value
+chr_driving_alone_to_work,"CHR (analytic_data2023_0.csv, v067_rawvalue)",Driving Alone to Work raw value
+chr_long_commute_driving_alone,"CHR (analytic_data2023_0.csv, v137_rawvalue)",Long Commute - Driving Alone raw value
+chr_frequent_physical_distress,"CHR (analytic_data2023_0.csv, v144_rawvalue)",Frequent Physical Distress raw value
+chr_frequent_mental_distress,"CHR (analytic_data2023_0.csv, v145_rawvalue)",Frequent Mental Distress raw value
+chr_diabetes_prevalence,"CHR (analytic_data2023_0.csv, v060_rawvalue)",Diabetes Prevalence raw value
+chr_hiv_prevalence,"CHR (analytic_data2023_0.csv, v061_rawvalue)",HIV Prevalence raw value
+chr_food_insecurity,"CHR (analytic_data2023_0.csv, v139_rawvalue)",Food Insecurity raw value
+chr_limited_access_to_healthy_foods,"CHR (analytic_data2023_0.csv, v083_rawvalue)",Limited Access to Healthy Foods raw value
+chr_drug_overdose_deaths,"CHR (analytic_data2023_0.csv, v138_rawvalue)",Drug Overdose Deaths raw value [MORTALITY-BASED: overlaps outcome]
+chr_insufficient_sleep,"CHR (analytic_data2023_0.csv, v143_rawvalue)",Insufficient Sleep raw value
+chr_uninsured_adults,"CHR (analytic_data2023_0.csv, v003_rawvalue)",Uninsured Adults raw value
+chr_uninsured_children,"CHR (analytic_data2023_0.csv, v122_rawvalue)",Uninsured Children raw value
+chr_other_primary_care_providers,"CHR (analytic_data2023_0.csv, v131_rawvalue)",Other Primary Care Providers raw value
+chr_high_school_graduation,"CHR (analytic_data2023_0.csv, v021_rawvalue)",High School Graduation raw value
+chr_disconnected_youth,"CHR (analytic_data2023_0.csv, v149_rawvalue)",Disconnected Youth raw value
+chr_reading_scores,"CHR (analytic_data2023_0.csv, v159_rawvalue)",Reading Scores raw value
+chr_math_scores,"CHR (analytic_data2023_0.csv, v160_rawvalue)",Math Scores raw value
+chr_school_segregation,"CHR (analytic_data2023_0.csv, v167_rawvalue)",School Segregation raw value
+chr_school_funding_adequacy,"CHR (analytic_data2023_0.csv, v169_rawvalue)",School Funding Adequacy raw value
+chr_gender_pay_gap,"CHR (analytic_data2023_0.csv, v151_rawvalue)",Gender Pay Gap raw value
+chr_median_household_income,"CHR (analytic_data2023_0.csv, v063_rawvalue)",Median Household Income raw value
+chr_living_wage,"CHR (analytic_data2023_0.csv, v170_rawvalue)",Living Wage raw value
+chr_children_eligible_for_free_or_reduced_price_l,"CHR (analytic_data2023_0.csv, v065_rawvalue)",Children Eligible for Free or Reduced Price Lunch raw value
+chr_residential_segregation_black_white,"CHR (analytic_data2023_0.csv, v141_rawvalue)",Residential Segregation - Black/White raw value
+chr_child_care_cost_burden,"CHR (analytic_data2023_0.csv, v171_rawvalue)",Child Care Cost Burden raw value
+chr_child_care_centers,"CHR (analytic_data2023_0.csv, v172_rawvalue)",Child Care Centers raw value
+chr_homicides,"CHR (analytic_data2023_0.csv, v015_rawvalue)",Homicides raw value [MORTALITY-BASED: overlaps outcome]
+chr_suicides,"CHR (analytic_data2023_0.csv, v161_rawvalue)",Suicides raw value [MORTALITY-BASED: overlaps outcome]
+chr_firearm_fatalities,"CHR (analytic_data2023_0.csv, v148_rawvalue)",Firearm Fatalities raw value [MORTALITY-BASED: overlaps outcome]
+chr_motor_vehicle_crash_deaths,"CHR (analytic_data2023_0.csv, v039_rawvalue)",Motor Vehicle Crash Deaths raw value [MORTALITY-BASED: overlaps outcome]
+chr_juvenile_arrests,"CHR (analytic_data2023_0.csv, v158_rawvalue)",Juvenile Arrests raw value
+chr_voter_turnout,"CHR (analytic_data2023_0.csv, v177_rawvalue)",Voter Turnout raw value
+chr_census_participation,"CHR (analytic_data2023_0.csv, v178_rawvalue)",Census Participation raw value
+chr_traffic_volume,"CHR (analytic_data2023_0.csv, v156_rawvalue)",Traffic Volume raw value
+chr_homeownership,"CHR (analytic_data2023_0.csv, v153_rawvalue)",Homeownership raw value
+chr_severe_housing_cost_burden,"CHR (analytic_data2023_0.csv, v154_rawvalue)",Severe Housing Cost Burden raw value
+chr_broadband_access,"CHR (analytic_data2023_0.csv, v166_rawvalue)",Broadband Access raw value
+chr_population,"CHR (analytic_data2023_0.csv, v051_rawvalue)",Population raw value
+chr_pct_below_18_years_of_age,"CHR (analytic_data2023_0.csv, v052_rawvalue)",% Below 18 Years of Age raw value
+chr_pct_65_and_older,"CHR (analytic_data2023_0.csv, v053_rawvalue)",% 65 and Older raw value
+chr_pct_non_hispanic_black,"CHR (analytic_data2023_0.csv, v054_rawvalue)",% Non-Hispanic Black raw value
+chr_pct_american_indian_or_alaska_native,"CHR (analytic_data2023_0.csv, v055_rawvalue)",% American Indian or Alaska Native raw value
+chr_pct_asian,"CHR (analytic_data2023_0.csv, v081_rawvalue)",% Asian raw value
+chr_pct_native_hawaiian_or_other_pacific_islander,"CHR (analytic_data2023_0.csv, v080_rawvalue)",% Native Hawaiian or Other Pacific Islander raw value
+chr_pct_hispanic,"CHR (analytic_data2023_0.csv, v056_rawvalue)",% Hispanic raw value
+chr_pct_non_hispanic_white,"CHR (analytic_data2023_0.csv, v126_rawvalue)",% Non-Hispanic White raw value
+chr_pct_not_proficient_in_english,"CHR (analytic_data2023_0.csv, v059_rawvalue)",% Not Proficient in English raw value
+chr_pct_female,"CHR (analytic_data2023_0.csv, v057_rawvalue)",% Female raw value
+chr_pct_rural,"CHR (analytic_data2023_0.csv, v058_rawvalue)",% Rural raw value
+acs_total_pop,Census ACS 5-year 2019,Total population
+acs_log_pop,Census ACS 5-year 2019,Log of total population
+acs_median_age,Census ACS 5-year 2019,Median age
+acs_median_hh_income,Census ACS 5-year 2019,Median household income (2019 $)
+acs_gini,Census ACS 5-year 2019,Gini index of income inequality
+acs_median_home_value,Census ACS 5-year 2019,Median home value (2019 $)
+acs_pct_poverty,Census ACS 5-year 2019,% of people below poverty
+acs_unemployment_rate,Census ACS 5-year 2019,% of civilian labor force unemployed
+acs_pct_hs_or_higher,Census ACS 5-year 2019,% age 25+ with HS diploma/GED or higher
+acs_pct_bachelors_or_higher,Census ACS 5-year 2019,% age 25+ with bachelor's degree or higher
+acs_pct_nh_white,Census ACS 5-year 2019,% non-Hispanic White
+acs_pct_nh_black,Census ACS 5-year 2019,% non-Hispanic Black
+acs_pct_nh_aian,Census ACS 5-year 2019,% non-Hispanic American Indian/Alaska Native
+acs_pct_nh_asian,Census ACS 5-year 2019,% non-Hispanic Asian
+acs_pct_hispanic,Census ACS 5-year 2019,% Hispanic or Latino
+acs_pct_foreign_born,Census ACS 5-year 2019,% foreign born
+rucc,USDA ERS (ruralurbancodes2013.xls),"Rural-Urban Continuum Code: 1-3 metro (by size), 4-9 nonmetro (by urbanization/adjacency)"
+metro,Derived from rucc,1 = metro county (RUCC 1-3)
+cms_avg_bene_age,CMS Geographic Variation 2019 (BENE_AVG_AGE),Average age of Medicare FFS beneficiaries
+cms_pct_dual_eligible,CMS Geographic Variation 2019 (BENE_DUAL_PCT),% of FFS beneficiaries also eligible for Medicaid
+cms_ma_participation_rate,CMS Geographic Variation 2019 (MA_PRTCPTN_RATE),Medicare Advantage participation rate
+cms_std_spending_per_capita,CMS Geographic Variation 2019 (TOT_MDCR_STDZD_PYMT_PC),Standardized Medicare spending per FFS beneficiary
+cms_er_visits_per_1000,CMS Geographic Variation 2019 (ER_VISITS_PER_1000_BENES),"ER visits per 1,000 FFS beneficiaries"
+cms_readmission_pct,CMS Geographic Variation 2019 (ACUTE_HOSP_READMSN_PCT),30-day hospital readmission %
+irs_in_returns,IRS SOI county migration,Tax returns moving INTO the county from other US counties (households)
+irs_in_agi_per_return,IRS SOI county migration,Average AGI ($) per household moving in
+irs_nonmigrant_returns,IRS SOI county migration,Tax returns that stayed in the same county (non-migrants)
+irs_out_returns,IRS SOI county migration,Tax returns moving OUT of the county to other US counties (households)
+irs_out_agi_per_return,IRS SOI county migration,Average AGI ($) per household moving out
+scap_economic_connectedness,Social Capital Atlas (ec_county),Economic connectedness: share of high-income friends among low-income residents
+scap_child_economic_connectedness,Social Capital Atlas (child_ec_county),Economic connectedness among children/young people
+scap_ec_group_membership,Social Capital Atlas (ec_grp_mem_county),"Economic connectedness within groups (clubs, organizations)"
+scap_exposure_to_high_income,Social Capital Atlas (exposure_grp_mem_county),Exposure of low-income residents to high-income people in groups
+scap_friending_bias,Social Capital Atlas (bias_grp_mem_county),Friending bias: tendency to befriend similar-income people
+scap_clustering,Social Capital Atlas (clustering_county),Cohesiveness: share of a person's friends who are also friends
+scap_support_ratio,Social Capital Atlas (support_ratio_county),Share of friendships supported by a mutual friend
+scap_volunteering_rate,Social Capital Atlas (volunteering_rate_county),Share of members of volunteering/activism groups
+scap_civic_organizations,Social Capital Atlas (civic_organizations_county),"Civic organizations per 1,000 users"
+irs_in_rate_per_1000,Derived from IRS + ACS,"Households moving in per 1,000 residents"
+irs_out_rate_per_1000,Derived from IRS + ACS,"Households moving out per 1,000 residents"
+irs_net_rate_per_1000,Derived from IRS + ACS,"Net migration per 1,000 residents (in minus out)"
+irs_churn_rate_per_1000,Derived from IRS + ACS,"Total moves per 1,000 residents (in plus out): population turnover"
+irs_pct_stayed,Derived from IRS + ACS,% of resident filers who stayed in the county (rootedness)
+irs_agi_in_out_ratio,Derived from IRS + ACS,Income of arrivers vs. leavers (>1 = in-movers earn more)
