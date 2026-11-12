@@ -125,9 +125,27 @@ scap_clustering,Social Capital Atlas (clustering_county),Cohesiveness: share of 
 scap_support_ratio,Social Capital Atlas (support_ratio_county),Share of friendships supported by a mutual friend
 scap_volunteering_rate,Social Capital Atlas (volunteering_rate_county),Share of members of volunteering/activism groups
 scap_civic_organizations,Social Capital Atlas (civic_organizations_county),"Civic organizations per 1,000 users"
+qcew_employment,BLS QCEW 2019,"Jobs located in the county, annual average (a count; use the rates below)"
+qcew_establishments,BLS QCEW 2019,Employer establishments in the county (a count; use the rate below)
 irs_in_rate_per_1000,Derived from IRS + ACS,"Households moving in per 1,000 residents"
 irs_out_rate_per_1000,Derived from IRS + ACS,"Households moving out per 1,000 residents"
 irs_net_rate_per_1000,Derived from IRS + ACS,"Net migration per 1,000 residents (in minus out)"
 irs_churn_rate_per_1000,Derived from IRS + ACS,"Total moves per 1,000 residents (in plus out): population turnover"
 irs_pct_stayed,Derived from IRS + ACS,% of resident filers who stayed in the county (rootedness)
 irs_agi_in_out_ratio,Derived from IRS + ACS,Income of arrivers vs. leavers (>1 = in-movers earn more)
+acs_home_value_to_income,Derived from ACS,Median home value / median household income (housing affordability; higher = less affordable)
+qcew_avg_weekly_wage,Derived from BLS QCEW 2019,Average weekly wage of jobs located in the county ($)
+qcew_jobs_per_100_residents,Derived from BLS QCEW 2019,Jobs located in the county per 100 residents (above ~50 = people commute in)
+qcew_estabs_per_1000,Derived from BLS QCEW 2019,"Employer establishments per 1,000 residents"
+qcew_pct_natural_resources,Derived from BLS QCEW 2019,"% of jobs in natural resources and mining (farming, forestry, mining, oil and gas)"
+qcew_pct_construction,Derived from BLS QCEW 2019,% of jobs in construction
+qcew_pct_manufacturing,Derived from BLS QCEW 2019,% of jobs in manufacturing
+qcew_pct_trade_transport,Derived from BLS QCEW 2019,"% of jobs in trade, transportation and utilities"
+qcew_pct_information,Derived from BLS QCEW 2019,% of jobs in information
+qcew_pct_finance,Derived from BLS QCEW 2019,% of jobs in financial activities
+qcew_pct_professional,Derived from BLS QCEW 2019,% of jobs in professional and business services
+qcew_pct_education_health,Derived from BLS QCEW 2019,% of jobs in private education and health services
+qcew_pct_leisure_hospitality,Derived from BLS QCEW 2019,% of jobs in leisure and hospitality
+qcew_pct_other_services,Derived from BLS QCEW 2019,% of jobs in other services
+qcew_pct_government,Derived from BLS QCEW 2019,"% of jobs in federal, state and local government (includes public schools and public hospitals)"
+qcew_industry_concentration,Derived from BLS QCEW 2019,Industry concentration (Herfindahl index of job shares; higher = county depends on fewer industries)

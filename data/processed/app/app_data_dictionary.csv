@@ -1,0 +1,45 @@
+file,column,description
+app_counties.csv,fips,5-digit county code (text; keep the leading zero)
+app_counties.csv,place,"County and state, for display"
+app_counties.csv,combined_unit,True if IHME reports several counties as one unit
+app_counties.csv,member_fips,"Counties in this row, ';'-separated when combined"
+app_counties.csv,rucc / rucc_label,USDA rural-urban code 1-9 and its meaning
+app_counties.csv,le50,"Life expectancy at age 50, both sexes, 2019 (years remaining)"
+app_counties.csv,le_birth,"Life expectancy at birth, for comparison"
+app_counties.csv,expected_age_at_death_from_50,50 + le50
+app_counties.csv,le50_national_rank / le50_percentile / le50_grade,Rank 1 = longest-lived; percentile and A-F (A = top fifth of counties)
+app_counties.csv,le50_state_rank / counties_in_state,Rank within the state
+app_counties.csv,model_predicted_le50,"What the model predicts from the county's characteristics (spatial cross-validation, so the county itself was not in training)"
+app_counties.csv,actual_minus_predicted / vs_expectation,Positive = lives longer than its profile suggests; the label uses +/- one model RMSE
+app_counties.csv,peer_mean_le50 / peer_best_le50 / peer_worst_le50,Life expectancy among the 25 most similar counties
+app_counties.csv,rank_among_peers,1 = longest-lived of the county and its 25 peers
+app_counties.csv,gain_<target>,Years associated with moving every recommended factor to that target at once
+app_counties.csv,factors_behind_<target>,How many recommended factors the county trails that target on
+app_counties.csv,gpa_modifiable / gpa_structural / gpa_overall,"Average grade, A=4 ... F=0"
+app_counties.csv,n_grade_A ... n_grade_F,How many graded features got each letter
+app_counties.csv,features_without_data,Features missing for this county (suppressed or not reported)
+app_counties.csv,opportunity_1..3 (+_years),Largest single-factor gains at the peer top quarter target
+app_counties.csv,strength_1..3 (+_grade),Modifiable factors where the county ranks best nationally
+app_county_features.csv,category,"modifiable, structural, fixed, or profile only (shown but not in the model)"
+app_county_features.csv,theme,Display grouping
+app_county_features.csv,value,The county's value (blank if no data)
+app_county_features.csv,national_percentile,"Share of counties with a lower value, 0-100"
+app_county_features.csv,band,"Very low / Low / Typical / High / Very high - fifths of the national percentile, no judgement"
+app_county_features.csv,better_direction,"higher, lower, or none (context only, not graded)"
+app_county_features.csv,score_percentile,Percentile facing the better direction: 100 = best in the country
+app_county_features.csv,grade,A-F from score_percentile in fifths; blank for context features
+app_county_features.csv,national_median / state_median / peer_median,Comparison values
+app_county_features.csv,peer_top_quarter,The level a quarter of similar counties already reach
+app_county_features.csv,vs_peers,ahead / behind / level against the peer median
+app_county_features.csv,shap_years,"How much this feature moves this county's prediction, in years (+ raises it)"
+app_county_scenarios.csv,target / target_label,"peer_median, peer_top_quartile (default), peer_best, national_top_decile"
+app_county_scenarios.csv,rank,1 = largest gain for this county at this target
+app_county_scenarios.csv,current / target_value / change,"Where the county is, where the target is, and the difference"
+app_county_scenarios.csv,years_gained,Years of life expectancy at 50 associated with that one change alone
+app_county_scenarios.csv,beyond_peers,True if no similar county has reached the target value - treat as a ceiling
+app_county_peers.csv,peer_rank,1 = most similar on fixed characteristics
+app_county_peers.csv,peer_fips / peer_place / peer_le50 / peer_population,The peer county
+app_feature_guide.csv,graded / better_direction,Whether the feature gets an A-F grade and which way is better
+app_feature_guide.csv,can_be_recommended,True if it can appear in the scenarios
+app_feature_guide.csv,in_model,True if the model uses it
+app_feature_guide.csv,mean_abs_shap_years,How much the model relies on it overall

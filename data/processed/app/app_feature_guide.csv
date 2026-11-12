@@ -1,0 +1,58 @@
+feature,label,full_description,category,theme,graded,better_direction,can_be_recommended,in_model,source,pct_counties_with_data,national_min,national_median,national_max,mean_abs_shap_years
+chr_adult_smoking,Adult Smoking,Adult Smoking,modifiable,Health behaviors,True,lower,True,True,"CHR (analytic_data2023_0.csv, v009_rawvalue)",100.0,0.067,0.199,0.411,0.3404
+chr_adult_obesity,Adult Obesity,Adult Obesity,modifiable,Health behaviors,True,lower,True,True,"CHR (analytic_data2023_0.csv, v011_rawvalue)",100.0,0.19,0.367,0.532,0.0915
+chr_physical_inactivity,Physical Inactivity,Physical Inactivity,modifiable,Health behaviors,True,lower,True,True,"CHR (analytic_data2023_0.csv, v070_rawvalue)",100.0,0.113,0.253,0.472,0.2478
+chr_excessive_drinking,Excessive Drinking,Excessive Drinking,modifiable,Health behaviors,True,lower,False,True,"CHR (analytic_data2023_0.csv, v049_rawvalue)",100.0,0.0819,0.1885,0.2893,0.0402
+chr_insufficient_sleep,Insufficient Sleep,Insufficient Sleep,modifiable,Health behaviors,True,lower,True,True,"CHR (analytic_data2023_0.csv, v143_rawvalue)",100.0,0.24,0.345,0.484,0.089
+chr_food_environment_index,Food Environment Index,Food Environment Index,modifiable,Health behaviors,True,higher,True,True,"CHR (analytic_data2023_0.csv, v133_rawvalue)",99.0,0.0,7.6,10.0,0.0472
+chr_access_to_exercise_opportunities,Access to Exercise Opportunities,Access to Exercise Opportunities,modifiable,Health behaviors,True,higher,True,True,"CHR (analytic_data2023_0.csv, v132_rawvalue)",98.3,0.0,0.6336,1.0,0.0189
+chr_uninsured_adults,Uninsured Adults,Uninsured Adults,modifiable,Health care,True,lower,True,True,"CHR (analytic_data2023_0.csv, v003_rawvalue)",100.0,0.0264,0.1244,0.4455,0.0218
+chr_primary_care_physicians,Primary Care Physicians (per 100k),Primary Care Physicians (per 100k),modifiable,Health care,True,higher,True,True,"CHR (analytic_data2023_0.csv, v004_rawvalue)",95.4,0.0,46.966,576.4328,0.0341
+chr_mental_health_providers,Mental Health Providers (per 100k),Mental Health Providers (per 100k),modifiable,Health care,True,higher,True,True,"CHR (analytic_data2023_0.csv, v062_rawvalue)",93.6,0.0,131.7178,3061.7452,0.0178
+chr_dentists,Dentists (per 100k),Dentists (per 100k),modifiable,Health care,True,higher,True,True,"CHR (analytic_data2023_0.csv, v088_rawvalue)",97.3,0.0,43.0195,817.8603,0.0249
+chr_preventable_hospital_stays,Preventable Hospital Stays,Preventable Hospital Stays,modifiable,Health care,True,lower,True,True,"CHR (analytic_data2023_0.csv, v005_rawvalue)",98.8,259.0,2912.0,10686.0,0.014
+chr_mammography_screening,Mammography Screening,Mammography Screening,modifiable,Health care,True,higher,True,True,"CHR (analytic_data2023_0.csv, v050_rawvalue)",99.8,0.04,0.37,0.62,0.0742
+chr_flu_vaccinations,Flu Vaccinations,Flu Vaccinations,modifiable,Health care,True,higher,True,True,"CHR (analytic_data2023_0.csv, v155_rawvalue)",99.8,0.02,0.46,0.71,0.0187
+chr_broadband_access,Broadband Access,Broadband Access,modifiable,Housing and environment,True,higher,True,True,"CHR (analytic_data2023_0.csv, v166_rawvalue)",100.0,0.3704,0.8167,0.9699,0.0213
+chr_drinking_water_violations,Drinking Water Violations,Drinking Water Violations,modifiable,Housing and environment,True,lower,False,True,"CHR (analytic_data2023_0.csv, v124_rawvalue)",99.1,0.0,0.0,1.0,0.0014
+cms_readmission_pct,30-day hospital readmission %,30-day hospital readmission %,modifiable,Health care,True,lower,True,True,CMS Geographic Variation 2019 (ACUTE_HOSP_READMSN_PCT),97.9,0.0,0.1694,0.3077,0.0243
+cms_er_visits_per_1000,"ER visits per 1,000 FFS beneficiaries","ER visits per 1,000 FFS beneficiaries",modifiable,Health care,True,lower,True,True,CMS Geographic Variation 2019 (ER_VISITS_PER_1000_BENES),99.9,28.8066,677.5935,1241.0314,0.174
+acs_median_hh_income,Median household income (2019 $),Median household income (2019 $),structural,Income and work,True,higher,False,True,Census ACS 5-year 2019,100.0,21504.0,51725.0,142299.0,0.1632
+acs_pct_poverty,% of people below poverty,% of people below poverty,structural,Income and work,True,lower,False,True,Census ACS 5-year 2019,100.0,2.4288,14.2306,55.4518,0.0722
+acs_gini,Gini index of income inequality,Gini index of income inequality,structural,Income and work,True,lower,False,True,Census ACS 5-year 2019,100.0,0.3241,0.4434,0.707,0.0309
+acs_unemployment_rate,% of civilian labor force unemployed,% of civilian labor force unemployed,structural,Income and work,True,lower,False,True,Census ACS 5-year 2019,100.0,0.0,4.9712,27.1519,0.0286
+acs_pct_hs_or_higher,% age 25+ with HS diploma/GED or higher,% age 25+ with HS diploma/GED or higher,structural,Education,True,higher,False,True,Census ACS 5-year 2019,100.0,53.3135,88.2561,98.8831,0.035
+acs_pct_bachelors_or_higher,% age 25+ with bachelor's degree or higher,% age 25+ with bachelor's degree or higher,structural,Education,True,higher,False,True,Census ACS 5-year 2019,100.0,3.1532,19.5189,77.5574,0.1989
+chr_gender_pay_gap,Gender Pay Gap,Gender Pay Gap,structural,Income and work,False,none,False,True,"CHR (analytic_data2023_0.csv, v151_rawvalue)",99.9,0.3332,0.7766,1.4094,0.013
+chr_children_in_single_parent_households,Children in Single-Parent Households,Children in Single-Parent Households,structural,Family and community,True,lower,False,True,"CHR (analytic_data2023_0.csv, v082_rawvalue)",100.0,0.0,0.2254,0.7877,0.0526
+chr_social_associations,Social Associations,Social Associations,structural,Family and community,True,higher,False,True,"CHR (analytic_data2023_0.csv, v140_rawvalue)",100.0,0.0,10.7571,48.8599,0.0523
+chr_homeownership,Homeownership,Homeownership,structural,Housing and environment,True,higher,False,True,"CHR (analytic_data2023_0.csv, v153_rawvalue)",100.0,0.1984,0.7374,0.9652,0.0325
+chr_severe_housing_cost_burden,Severe Housing Cost Burden,Severe Housing Cost Burden,structural,Housing and environment,True,lower,False,True,"CHR (analytic_data2023_0.csv, v154_rawvalue)",100.0,0.0097,0.1019,0.3076,0.0111
+chr_severe_housing_problems,Severe Housing Problems,Severe Housing Problems,structural,Housing and environment,True,lower,False,True,"CHR (analytic_data2023_0.csv, v136_rawvalue)",100.0,0.0217,0.1257,0.6783,0.0519
+chr_air_pollution_particulate_matter,Air Pollution - Particulate Matter,Air Pollution - Particulate Matter,structural,Housing and environment,True,lower,False,True,"CHR (analytic_data2023_0.csv, v125_rawvalue)",99.4,0.9,7.8,15.6,0.0203
+chr_long_commute_driving_alone,Long Commute - Driving Alone,Long Commute - Driving Alone,structural,Housing and environment,True,lower,False,True,"CHR (analytic_data2023_0.csv, v137_rawvalue)",100.0,0.0,0.322,0.784,0.0224
+cms_std_spending_per_capita,Standardized Medicare spending per FFS benefi,Standardized Medicare spending per FFS beneficiary,structural,Health care,False,none,False,True,CMS Geographic Variation 2019 (TOT_MDCR_STDZD_PYMT_PC),99.9,4756.61,10161.38,21407.04,0.1471
+cms_pct_dual_eligible,% of FFS beneficiaries also eligible for Medi,% of FFS beneficiaries also eligible for Medicaid,structural,Health care,False,none,False,True,CMS Geographic Variation 2019 (BENE_DUAL_PCT),99.9,0.028,0.1809,0.7314,0.0375
+cms_ma_participation_rate,Medicare Advantage participation rate,Medicare Advantage participation rate,structural,Health care,False,none,False,True,CMS Geographic Variation 2019 (MA_PRTCPTN_RATE),98.6,0.0,0.2914,0.7429,0.0457
+scap_economic_connectedness,Economic connectedness: share of high-income ,Economic connectedness: share of high-income friends among low-income residents,structural,Family and community,True,higher,False,True,Social Capital Atlas (ec_county),97.4,0.2947,0.8063,1.3597,0.1282
+scap_clustering,Cohesiveness: share of a person's friends who,Cohesiveness: share of a person's friends who are also friends,structural,Family and community,False,none,False,True,Social Capital Atlas (clustering_county),99.5,0.0716,0.1147,0.261,0.0176
+scap_volunteering_rate,Share of members of volunteering/activism gro,Share of members of volunteering/activism groups,structural,Family and community,True,higher,False,True,Social Capital Atlas (volunteering_rate_county),99.5,0.0097,0.0733,0.3087,0.019
+chr_pct_65_and_older,% 65 and Older,% 65 and Older,fixed,Demographics,False,none,False,True,"CHR (analytic_data2023_0.csv, v053_rawvalue)",100.0,0.0507,0.1961,0.5817,0.2792
+chr_pct_female,% Female,% Female,fixed,Demographics,False,none,False,True,"CHR (analytic_data2023_0.csv, v057_rawvalue)",100.0,0.26,0.4996,0.5705,0.0929
+acs_pct_nh_black,% non-Hispanic Black,% non-Hispanic Black,fixed,Demographics,False,none,False,True,Census ACS 5-year 2019,100.0,0.0,2.225,87.2263,0.0273
+acs_pct_hispanic,% Hispanic or Latino,% Hispanic or Latino,fixed,Demographics,False,none,False,True,Census ACS 5-year 2019,100.0,0.0,4.1976,99.1744,0.0487
+acs_pct_nh_aian,% non-Hispanic American Indian/Alaska Native,% non-Hispanic American Indian/Alaska Native,fixed,Demographics,False,none,False,True,Census ACS 5-year 2019,100.0,0.0,0.2821,91.903,0.0249
+acs_pct_nh_asian,% non-Hispanic Asian,% non-Hispanic Asian,fixed,Demographics,False,none,False,True,Census ACS 5-year 2019,100.0,0.0,0.6145,41.7288,0.0305
+chr_pct_not_proficient_in_english,% Not Proficient in English,% Not Proficient in English,fixed,Demographics,False,none,False,True,"CHR (analytic_data2023_0.csv, v059_rawvalue)",100.0,0.0,0.0069,0.3844,0.1818
+acs_log_pop,Log population,Log population,fixed,Demographics,False,none,False,True,Census ACS 5-year 2019,100.0,6.4184,10.178,16.1262,0.0259
+chr_pct_rural,% Rural,% Rural,fixed,Demographics,False,none,False,True,"CHR (analytic_data2023_0.csv, v058_rawvalue)",99.9,0.0,0.5916,1.0,0.049
+rucc,Rural-urban code (higher = more rural),Rural-urban code (higher = more rural),fixed,Demographics,False,none,False,True,USDA ERS (ruralurbancodes2013.xls),100.0,1.0,6.0,9.0,0.0202
+irs_net_rate_per_1000,"Net migration per 1,000 residents (in minus o","Net migration per 1,000 residents (in minus out)",fixed,Migration,False,none,False,True,Derived from IRS + ACS,99.0,-92.1601,-0.4836,36.7755,0.0453
+irs_churn_rate_per_1000,"Total moves per 1,000 residents (in plus out)","Total moves per 1,000 residents (in plus out): population turnover",fixed,Migration,False,none,False,True,Derived from IRS + ACS,99.0,16.0,43.7788,176.1058,0.0676
+irs_agi_in_out_ratio,Income of arrivers vs. leavers (>1 = in-mover,Income of arrivers vs. leavers (>1 = in-movers earn more),fixed,Migration,False,none,False,True,Derived from IRS + ACS,99.0,0.0504,1.0111,3.223,0.0215
+acs_total_pop,Total population,Total population,profile only,Demographics,False,none,False,False,Census ACS 5-year 2019,100.0,613.0,26318.0,10081570.0,
+acs_median_age,Median age,Median age,profile only,Demographics,False,none,False,False,Census ACS 5-year 2019,100.0,22.3,41.3,67.4,
+acs_pct_nh_white,% non-Hispanic White,% non-Hispanic White,profile only,Demographics,False,none,False,False,Census ACS 5-year 2019,100.0,0.6929,83.8197,99.5946,
+chr_pct_below_18_years_of_age,% Below 18 Years of Age,% Below 18 Years of Age,profile only,Demographics,False,none,False,False,"CHR (analytic_data2023_0.csv, v052_rawvalue)",100.0,0.0458,0.2204,0.4236,
+qcew_avg_weekly_wage,Average weekly wage of jobs located in the co,Average weekly wage of jobs located in the county ($),profile only,Demographics,False,none,False,False,Derived from BLS QCEW 2019,100.0,472.7798,781.4955,2659.1001,
+qcew_jobs_per_100_residents,Jobs located in the county per 100 residents ,Jobs located in the county per 100 residents (above ~50 = people commute in),profile only,Demographics,False,none,False,False,Derived from BLS QCEW 2019,100.0,5.5585,33.9481,451.2788,

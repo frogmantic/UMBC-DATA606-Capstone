@@ -31,6 +31,7 @@ chr_low_birthweight,-0.531,Youth/early-life,Low Birthweight
 chr_preventable_hospital_stays,-0.528,Main (upstream),Preventable Hospital Stays
 chr_broadband_access,0.516,Main (upstream),Broadband Access
 cms_std_spending_per_capita,-0.502,Main (upstream),Standardized Medicare spending per FFS benefi
+qcew_estabs_per_1000,0.49,Industry mix,"Employer establishments per 1,000 residents"
 chr_children_in_single_parent_households,-0.485,Main (upstream),Children in Single-Parent Households
 chr_school_funding_adequacy,0.481,Youth/early-life,School Funding Adequacy
 acs_unemployment_rate,-0.464,Main (upstream),% of civilian labor force unemployed
@@ -42,6 +43,7 @@ chr_air_pollution_particulate_matter,-0.358,Main (upstream),Air Pollution - Part
 scap_civic_organizations,0.357,Social capital,"Civic organizations per 1,000 users"
 scap_clustering,-0.351,Main (upstream),Cohesiveness: share of a person's friends who
 chr_sexually_transmitted_infections,-0.336,Youth/early-life,Sexually Transmitted Infections
+qcew_pct_other_services,0.336,Industry mix,% of jobs in other services
 chr_mammography_screening,0.335,Main (upstream),Mammography Screening
 chr_uninsured_adults,-0.335,Main (upstream),Uninsured Adults
 chr_access_to_exercise_opportunities,0.333,Main (upstream),Access to Exercise Opportunities
@@ -54,17 +56,27 @@ chr_math_scores,0.319,Youth/early-life,Math Scores
 acs_pct_nh_asian,0.314,Main (upstream),% non-Hispanic Asian
 chr_dentists,0.304,Main (upstream),Dentists
 irs_in_rate_per_1000,0.303,Migration,"Households moving in per 1,000 residents"
+qcew_jobs_per_100_residents,0.3,Industry mix,Jobs located in the county per 100 residents 
+qcew_avg_weekly_wage,0.283,Industry mix,Average weekly wage of jobs located in the co
 chr_flu_vaccinations,0.283,Main (upstream),Flu Vaccinations
 acs_gini,-0.272,Main (upstream),Gini index of income inequality
 chr_drug_overdose_deaths,-0.27,Cause-specific deaths,Drug Overdose Deaths
+qcew_pct_construction,0.269,Industry mix,% of jobs in construction
+qcew_pct_information,0.262,Industry mix,% of jobs in information
+qcew_industry_concentration,-0.25,Industry mix,Industry concentration (Herfindahl index of j
 scap_volunteering_rate,0.243,Main (upstream),Share of members of volunteering/activism gro
+qcew_pct_government,-0.233,Industry mix,"% of jobs in federal, state and local governm"
+qcew_pct_manufacturing,-0.232,Industry mix,% of jobs in manufacturing
 chr_hiv_prevalence,-0.231,Youth/early-life,HIV Prevalence
 chr_suicides,-0.221,Cause-specific deaths,Suicides
 chr_mental_health_providers,0.216,Main (upstream),Mental Health Providers
 acs_pct_hispanic,0.211,Main (upstream),% Hispanic or Latino
+qcew_pct_leisure_hospitality,0.21,Industry mix,% of jobs in leisure and hospitality
 chr_pct_female,-0.206,Main (upstream),% Female
+qcew_pct_professional,0.185,Industry mix,% of jobs in professional and business servic
 chr_pct_not_proficient_in_english,0.185,Main (upstream),% Not Proficient in English
 chr_pct_below_18_years_of_age,-0.174,Youth/early-life,% Below 18 Years of Age
+qcew_pct_finance,0.166,Industry mix,% of jobs in financial activities
 chr_homeownership,0.152,Main (upstream),Homeownership
 chr_pct_65_and_older,0.142,Main (upstream),% 65 and Older
 chr_pct_rural,-0.141,Main (upstream),% Rural
@@ -79,9 +91,12 @@ chr_school_segregation,0.086,Youth/early-life,School Segregation
 irs_pct_stayed,-0.076,Migration,% of resident filers who stayed in the county
 chr_gender_pay_gap,0.072,Main (upstream),Gender Pay Gap
 cms_ma_participation_rate,-0.064,Main (upstream),Medicare Advantage participation rate
+qcew_pct_natural_resources,-0.057,Industry mix,% of jobs in natural resources and mining (fa
 scap_friending_bias,-0.054,Social capital,Friending bias: tendency to befriend similar-
 chr_severe_housing_problems,-0.053,Main (upstream),Severe Housing Problems
 chr_drinking_water_violations,0.051,Main (upstream),Drinking Water Violations
 chr_child_care_centers,0.038,Youth/early-life,Child Care Centers
 chr_social_associations,0.015,Main (upstream),Social Associations
+qcew_pct_education_health,-0.013,Industry mix,% of jobs in private education and health ser
 chr_severe_housing_cost_burden,-0.005,Main (upstream),Severe Housing Cost Burden
+qcew_pct_trade_transport,-0.004,Industry mix,"% of jobs in trade, transportation and utilit"

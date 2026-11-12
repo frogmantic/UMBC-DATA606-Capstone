@@ -21,3 +21,23 @@ Main + cause-specific deaths,Elastic net,Random 5-fold,57,0.909,0.666,0.79
 Main + cause-specific deaths,Elastic net,Spatial (by division),57,1.04,0.769,0.725
 Main + cause-specific deaths,Gradient boosting,Random 5-fold,57,0.874,0.648,0.806
 Main + cause-specific deaths,Gradient boosting,Spatial (by division),57,1.042,0.77,0.724
+Main + industry mix,Elastic net,Random 5-fold,66,0.951,0.697,0.77
+Main + industry mix,Elastic net,Spatial (by division),66,1.074,0.795,0.707
+Main + industry mix,Gradient boosting,Random 5-fold,66,0.91,0.67,0.789
+Main + industry mix,Gradient boosting,Spatial (by division),66,1.086,0.804,0.7
+Main + affordability,Elastic net,Random 5-fold,52,0.941,0.69,0.775
+Main + affordability,Elastic net,Spatial (by division),52,1.051,0.781,0.719
+Main + affordability,Gradient boosting,Random 5-fold,52,0.908,0.669,0.79
+Main + affordability,Gradient boosting,Spatial (by division),52,1.079,0.799,0.704
+Main + everything,Elastic net,Random 5-fold,86,0.869,0.631,0.808
+Main + everything,Elastic net,Spatial (by division),86,0.974,0.71,0.759
+Main + everything,Gradient boosting,Random 5-fold,86,0.865,0.634,0.81
+Main + everything,Gradient boosting,Spatial (by division),86,1.005,0.731,0.743
+Main + upstream add-ons,Elastic net,Random 5-fold,74,0.912,0.665,0.789
+Main + upstream add-ons,Elastic net,Spatial (by division),74,1.034,0.757,0.728
+Main + upstream add-ons,Gradient boosting,Random 5-fold,74,0.896,0.661,0.796
+Main + upstream add-ons,Gradient boosting,Spatial (by division),74,1.05,0.773,0.72
+Main + outcome-adjacent,Elastic net,Random 5-fold,63,0.903,0.658,0.793
+Main + outcome-adjacent,Elastic net,Spatial (by division),63,1.022,0.75,0.734
+Main + outcome-adjacent,Gradient boosting,Random 5-fold,63,0.873,0.643,0.806
+Main + outcome-adjacent,Gradient boosting,Spatial (by division),63,1.044,0.771,0.723

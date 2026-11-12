@@ -1,0 +1,30 @@
+{
+  "outcome": "Life expectancy at age 50, both sexes, 2019 (IHME)",
+  "counties": 3079,
+  "national_median_le50": 30.95,
+  "le50_min": 22.86,
+  "le50_max": 44.54,
+  "model": "Gradient boosting on 51 features",
+  "model_r2_spatial_cv": 0.708,
+  "model_rmse_years": 1.07,
+  "peers_per_county": 25,
+  "grade_scale": {
+    "A": "top fifth of counties",
+    "B": "second fifth",
+    "C": "middle fifth",
+    "D": "fourth fifth",
+    "F": "bottom fifth"
+  },
+  "targets": {
+    "peer_median": "Peer median",
+    "peer_top_quartile": "Peer top quarter",
+    "peer_best": "Peer best",
+    "national_top_decile": "National top 10%"
+  },
+  "default_target": "peer_top_quartile",
+  "not_recommended": [
+    "Excessive Drinking",
+    "Drinking Water Violations"
+  ],
+  "caveat": "Associations between counties, not causes. A gain of +1 year means similar counties at that level live about a year longer, not that this county would."
+}
