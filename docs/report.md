@@ -9,7 +9,7 @@ Prepared for UMBC Data Science Master Degree Capstone by Dr. Chaojie (Jay) Wang
 |---|---|
 | **GitHub repository** | https://github.com/frogmantic/UMBC-DATA606-Capstone |
 | **PowerPoint presentation** | [docs/MichaelTylerData606Update.pptx](https://github.com/frogmantic/UMBC-DATA606-Capstone/blob/main/docs/MichaelTylerData606Update.pptx) |
-| **YouTube video** | *Link to be added once the presentation is recorded* |
+| **YouTube video** | https://youtu.be/bjJq8PddmbE |
 | **Web app** | https://life-expectancy-after-50.streamlit.app/ |
 
 ---
